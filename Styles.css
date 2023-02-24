@@ -23,11 +23,6 @@ header {
 
 }
 
-/*
-header {
-    margin: 44px 0 144px 76px;
-}*/
-
 .imgMain {
     margin: 150px 0 0 123px;
     width: 568px;
@@ -81,3 +76,39 @@ a {
     color: #6FBF44;
     cursor: pointer;
 }
+
+
+@media (max-width: 900px) {
+
+    .menu {
+        display: none;
+    }
+
+    .button-header{
+        position: absolute;
+        margin-left: 80%;
+    }
+    
+    h1 {
+        font-size: 15.0vw;
+        font-weight: 15vh;
+        text-align: center;
+        margin-top: 20%;
+    }
+    section{
+        align-items: center;
+        text-align: center;
+        margin-left: 12%;
+    }
+    .imgMain {
+        position: absolute;
+        margin-top: 130%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    
+
+}
+
+
